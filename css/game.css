@@ -1,0 +1,312 @@
+#content_game{
+	width: 100%;
+	background-color: rgb(197,233,245);
+	overflow: hidden;
+}
+#con_bgm{
+	width: 100%;
+	height: 6.09rem;
+	text-align: center;
+	background-image: url('../images/guang.png');
+	background-size: 7.5rem 6.09rem;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.bgm{
+	width: 5.63rem;
+	height: 1.52rem;
+	position: absolute;
+	top:0.3rem;
+	left: 0.7rem;
+}
+.word{
+	width: 3.22rem;
+	height: 0.41rem;
+	position: absolute;
+	top:0.8rem;
+	left: 2.2rem;
+}
+.cloudll{
+	width: 1.07rem;
+	height: 2.03rem;
+	position: absolute;
+	top:0.5rem;
+	left: 0;
+}
+.cloudrr{
+	width: 1.10rem;
+	height: 1.57rem;
+	position: absolute;
+	top:0.22rem;
+	right: 0;
+}
+#marquee{
+	width: 4.8rem;
+	height: 0.4rem;	
+	padding-left: 0.5rem;
+	background: #fff;
+	border-radius: 0.4rem;
+	border: 0.01rem solid #000;
+	margin: 0 auto;
+	margin-top: -4.3rem;
+	overflow: hidden;
+}
+#marquee .list  li{
+	height: 0.4rem;
+	line-height: 0.4rem;
+	color: #333;
+	font-size: 0.24rem;
+	font-family: "微软雅黑";
+	overflow: hidden;		
+}
+#lottery{
+	width: 6.77rem;
+	height: 7.58rem;
+	background-image: url('../images/jiq.png');
+	background-repeat: no-repeat;
+	background-size: 6.77rem 7.58rem;
+	margin: 0 auto;
+	margin-top: 0.2rem;
+	position: relative;
+}
+#lottery .tit{
+	width: 4.8rem;
+	height: 0.54rem;
+	position: absolute;
+	top: 0.25rem;
+	left: 50%;
+	margin-left: -2.4rem;
+}
+@keyframes flash_up{
+	from{background-image: url('../images/dengan1.png')}
+	to{background-image: url('../images/dengli1.png')}
+
+}
+#flash {
+	animation: flash_up 0.2s infinite alternate ease;
+	-webkit-animation:flash_up 0.2s infinite alternate ease;
+	-moz-animation:flash_up 0.2s infinite alternate ease;
+	-o-animation:flash_up 0.2s infinite alternate ease;
+	width: 5.28rem;
+	height: 0.14rem;
+	background-image: url('../images/dengan1.png');
+	background-size: 5.28rem 0.14rem;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 1.0rem;
+	left: 50%;
+	margin-left: -2.64rem;
+}
+#lottery .smyl{
+	width: 3.06rem;
+	height: 0.32rem;
+	position: absolute;
+	top: 1.24rem;
+	left: 50%;
+	margin-left: -1.53rem; 
+}
+.ball{
+	width: 0.57rem;
+	height: 0.57rem;
+	position: absolute;
+	top: 5.6rem;
+	left: 1.32rem;
+	z-index: 30;
+}
+@keyframes flash_l{
+	from{background-image: url('../images/dengyan.png')}
+	to{background-image: url('../images/dengyl.png')}
+}
+#dengl{
+	animation: flash_l 0.2s infinite alternate ease;
+	-webkit-animation:flash_l 0.2s infinite alternate ease;
+	-moz-animation:flash_l 0.2s infinite alternate ease;
+	-o-animation:flash_l 0.2s infinite alternate ease;
+	width: 1.64rem;
+	height: 0.14rem;
+	background-image: url('../images/dengyl.png');
+	background-size: 1.64rem 0.14rem;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 7.15rem;
+	left: 0.3rem;
+}
+@keyframes flash_r{
+	from{background-image: url('../images/dengyan.png')}
+	to{background-image: url('../images/dengyl.png')}
+}
+#dengr{
+	animation: flash_r 0.2s infinite alternate ease;
+	-webkit-animation:flash_r 0.2s infinite alternate ease;
+	-moz-animation:flash_r 0.2s infinite alternate ease;
+	-o-animation:flash_r 0.2s infinite alternate ease;
+	width: 1.66rem;
+	height: 0.14rem;
+	background-image: url('../images/dengyan.png');
+	background-size: 1.66rem 0.14rem;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 7.15rem;
+	right: 0.25rem;
+}
+
+.heart{
+	width: 0.69rem;
+	height: 0.42rem;
+	margin-top: 5.7rem;
+	margin-right: 0.9rem;
+	float: right;
+	position: relative;
+	z-index: 30;
+}
+#lottery .conn{
+	width: 100%;
+	position: absolute;
+	top: 7.08rem;
+	left: 0;
+	font-size: 0.24rem;
+	text-align: center;
+	transform: scale(0.8);
+
+}
+#lottery .num{
+	padding: 0.05rem 0.2rem;
+	border: 0.01rem solid #000;
+	border-radius: 0.1rem ;
+	background-color: #fff;
+	font-size: 0.24rem;
+	color: #080103;
+}
+#lottery .num span{
+	color: #ef3e50;
+}
+
+/* 抽奖盘 */
+#view{
+	width: 5.6rem;
+	height: 3.7rem;
+	/* border: 0.01rem solid #000; */
+	position: absolute;
+	top: 2.1rem;
+	left: 50%;
+	margin-left: -2.8rem;
+	perspective:1000px;
+
+}
+#view li{
+	width: 1.8rem;
+	height: 1.2rem;
+	text-align: center;
+	border: 0.01rem solid #000;	
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 0.7rem 0.23rem; 
+	transform-origin:50% 50%;
+	position: absolute;
+	float: left;
+}
+#view li h3{
+	height: 0.6rem;
+	line-height: 0.8rem;
+	font-size: 0.28rem;
+	font-family: "微软雅黑";
+	color: #fff;
+	font-weight: normal;
+}
+#view li span{
+	display: block;
+	height: 0.6rem;
+	line-height: 0.3rem;
+	font-size: 0.2rem;
+	font-family: "微软雅黑";
+	color: #fff;
+}
+#view li p{
+	display: none;
+}
+#btn{
+	width: 2.25rem;
+	height: 0.55rem;
+	background-image: url('../images/djcj.png');
+	background-repeat: no-repeat;
+	background-size: 2.25rem 0.55rem;
+	position: absolute;
+	top: 6.1rem;
+	left:3.1rem;
+}
+
+/* 翻牌弹出红包 */
+.hidden{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.4);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 20;
+}
+.hidden .hb{
+	width:7.12rem;
+	height: 5.66rem;
+	text-align: center;
+	font-family: "微软雅黑";
+	background-image: url('../images/hongb.png') ;
+	background-size:7.12rem 5.66rem;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 3.6rem;
+	left: 50%;
+	z-index: 30;
+	margin-left: -3.56rem;
+}
+.hidden .hb p{
+	padding-top: 1rem;
+	padding-right: 0.1rem;
+	font-size: 0.24rem;
+	color: #f4465f;
+	padding-bottom: 0.1rem;
+}
+.hidden .hb h3{
+	padding-right: 0.1rem;
+	font-size:0.28rem;
+	font-weight: normal;
+	color: #d1263f;
+}
+#click_btn{
+	width: 2.3rem;
+	height: 0.68rem;
+	font-size: 0.26rem;
+	font-family: "微软雅黑";
+	color: #ffea97;
+	line-height: 0.68rem;
+	text-align: center;
+	background: url('../images/button2.png') no-repeat;
+	background-size: 2.3rem 0.68rem;
+	position: absolute;
+	top: 9.15rem;
+	left: 50%;
+	margin-left: -1.3rem;
+	z-index: 30;
+}
+/* 已经领取过弹框 */
+.again{
+	width: 4rem;
+	height:2rem;
+	line-height: 2rem;
+	font-size: 0.3rem;
+	text-align: center;
+	background: rgba(51,51,51,0.5);	
+	color:#fff;
+	border-radius: 0.15rem;
+	position: absolute;
+	top:4rem;
+	left: 50%;
+	margin-left: -2rem;
+	display: none;
+	z-index: 999;
+}
+/* 文字说明 */
+#description{
+	margin-top: 0.5rem;
+}
+

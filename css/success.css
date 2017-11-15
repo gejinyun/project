@@ -1,0 +1,252 @@
+﻿#content{
+	width: 7.5rem;
+	background-color: rgb(197,233,245);
+	position: relative;
+	overflow: hidden;
+}
+.bgm{
+	width: 100%;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+	font-size: 0.3rem;
+}
+.cloudl{
+	width: 1.29rem;
+	height: 2.13rem;
+	position: absolute;
+	top:0.38rem;
+	left: 0;
+}
+.cloudr{
+	width: 1.07rem;
+	height: 1.61rem;
+	position: absolute;
+	top:0.4rem;
+	right: 0;
+}
+.img_1qcg{
+	width: 2.44rem;
+	height: 0.63rem;
+	margin: 0 auto;
+	margin: -1.5rem;
+}
+@keyframes gm{
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+.img_gm{
+	animation:gm 0.5s infinite alternate ease;
+	-webkit-animation:gm 0.5s infinite alternate ease;
+	-moz-animation:gm 0.5s infinite alternate ease;
+	-o-animation:gm 0.5s infinite alternate ease;
+	display: block;
+	width: 5.69rem;
+	height: 5.65rem;
+	position: relative;
+	top: 0;
+	left: 50%;
+	margin-left: -2.84rem;
+	
+}
+.img_gm1{
+	display: block;
+	width: 5.69rem;
+	height: 5.65rem;
+	position: relative;
+	top: 0;
+	left: 50%;
+	margin-left: -2.84rem;
+	
+}
+.img_cd{
+	animation:gm 0.5s infinite alternate ease;
+	-webkit-animation:gm 0.5s infinite alternate ease;
+	-moz-animation:gm 0.5s infinite alternate ease;
+	-o-animation:gm 0.5s infinite alternate ease;
+	width: 6.31rem;
+	height: 3.78rem;
+	position: absolute;
+	top: 1.3rem;
+	left: 50%;
+	margin-left: -3.15rem;
+}
+.img_cd1{
+	width: 6.31rem;
+	height: 3.78rem;
+	position: absolute;
+	top: 1.3rem;
+	left: 50%;
+	margin-left: -3.15rem;
+}
+.con{
+	width: 3.2rem;
+	height: 1.86rem;
+	border: 0.01rem solid #000;
+	border-radius: 0.2rem;
+	position: absolute;
+	top: 2.24rem;
+	left: 50%;
+	margin-left: -1.6rem;
+	background: blue;
+	z-index: 2;
+}
+#word{
+	font-size: 0.28rem;
+	color: #fff;
+	text-align: center;
+	margin-top: 0.6rem;
+}
+.con .word1{
+	font-size: 0.24rem;
+	color: #fff;
+	text-align: center;
+	margin-top: 0.1rem;
+}
+/* 红包页面背景 */
+#img_bg{
+	width: 7.5rem;
+	background-color:rgba(0,0,0,0.4);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	z-index: 3;
+	display: none;
+}
+#img_hb{
+	width: 6.72rem;
+	height: 7.1rem;
+	text-align: center;
+	background-image: url(../images/khbg.png);
+	background-repeat: no-repeat;
+	background-size: 6.72rem 7.1rem;
+	position: absolute;
+	top: 2.65rem;
+	left: 50%;
+	margin-left: -3.5rem;
+	z-index: 4;
+}
+#img_hb span{
+	display: block;
+	width: 2rem;
+	height: 2rem;
+	border-radius: 50%;
+	position: absolute;
+	top: 1.69rem;
+	left: 2.49rem;
+	background: transparent;
+
+}
+#img_hbdk{
+	width: 6.72rem;
+	height: 7.14rem;
+	background-image: url(../images/hbdk.png);
+	background-repeat: no-repeat;
+	background-size: 6.72rem 7.14rem;
+	position: absolute;
+	top: 2.7rem;
+	left: 50%;
+	margin-left: -3.36rem;
+	z-index: 4;
+}
+.close{
+	width: 0.34rem;
+	height: 0.34rem;
+	position: absolute;
+	top: 0;
+	right: 0.1rem;
+	z-index: 4;
+}
+
+/* 分享页面 */
+#share{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.4);
+	background-repeat: no-repeat;
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: 999;
+}
+#share .img1{
+	width: 1.59rem;
+	height: 1.31rem;
+	position: absolute;
+	top:0.1rem;
+	right:0.1rem;
+}
+#share .img2{
+	width: 4.04rem;
+	height: 1.99rem;
+	position: absolute;
+	top:1.5rem;
+	right:0.3rem;
+}
+#share .share_award{
+	width:2.82rem;
+	height: 1.18rem;
+	background-image: url(../images/wordImg.png); 
+	background-repeat: no-repeat ;
+	background-size: 2.82rem 1.18rem;
+	position: absolute;
+	top:1.9rem;
+	right: 0.9rem;
+}
+.user_hb{
+	text-align: center;
+	font-size: 0.24rem;
+	color: #fff;
+}
+#sale{
+	line-height: 1.3rem;
+	font-size: 0.35rem;
+	text-align: center;
+}
+#use_btn{
+	width: 3rem;
+	height: 0.7rem;
+	line-height: 0.7rem;
+	background: url('../images/button.png') no-repeat;
+	background-size: 3rem 0.7rem;
+	position: absolute;
+	top: 6.3rem;
+	left: 50%;
+	margin-left: -1.5rem;
+	z-index: 5;
+	color: #cf3c36;
+	font-size: 0.3rem;
+	font-weight: 700;
+}
+#use_btn span:nth-child(1){
+	margin-left: 0.6rem;
+}
+#use_btn span:nth-child(2){
+	display: block;
+	width: 0.3rem;
+	height: 0.3rem;
+	background: url('../images/go.png') no-repeat;
+	background-size: 0.3rem 0.3rem;
+	margin-left: 0.2rem;
+	position: absolute;
+	top: 0.23rem;
+	right: 0.22rem;
+}
+
+.btn{
+	width: 5.3rem;
+	text-align: center;
+	color: #fff;
+	font-size: 0.28rem;
+	background-color: #38b5ef;
+	border: none;
+	line-height: 0.6rem;
+	border-radius: 0.6rem;
+	display: block;
+	margin: 0 auto;
+	margin-top: 0.82rem;
+	border: 0.01rem solid #000;
+}
+#description{
+	margin-top: 2.42rem;
+}

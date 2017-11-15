@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,user-scalable=no" />
+	<title>游戏页面</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/game.css">
+</head>
+<body>
+	<div id="content_game">
+		<?-- 发光背景 -->
+		<div id="con_bgm">
+			<img class="bgm" src="images/tit.png" alt="">
+			<img class="word" src="images/bt.png" alt="">
+			<img class="cloudll" src="images/yunz2.png" alt="">
+			<img class="cloudrr" src="images/yuny2.png" alt="">
+		</div>
+
+		<!-- 消息走马灯 -->
+		<div id="marquee">
+			<ul class="list"></ul>
+		</div>
+		<!-- 游戏界面 -->
+		<div id="lottery">
+			<img class="tit" src="images/yhjs.png" alt="">	
+			<!-- 闪灯效果 -->
+			<!-- <ul id="flash"></ul> -->
+			<div id="flash"></div>
+			<img class="smyl" src="images/smyj.png" alt="">
+			<ul id="view">
+			 	<li><h3></h3><span></span></li>
+				<li><h3></h3><span></span></li>
+				<li><h3></h3><span></span></li>
+				<li><h3></h3><span></span></li>
+				<li><h3></h3><span></span></li>
+				<li><h3></h3><span></span></li>
+				<li><h3></h3><span></span></li>
+				<li><h3></h3><span></span></li>
+				<li><h3></h3><span></span></li>
+			</ul>
+
+			<!-- 按钮：点击翻牌 -->
+			<div id="btn"></div>
+			<!-- 已经领取过弹框提示 -->
+			<div class="again"></div>
+			
+			<img class="heart" src="images/qi.png" alt="">
+			<img class="ball" src="images/yb.png" alt="">
+			
+			<!-- 闪灯 -->
+			<div id="dengl"></div>
+			<div id="dengr"></div>
+
+			<div class="conn">
+				<span class="num">今日你有<span>1</span>次抽奖机会</span>
+			</div>
+		</div>
+		<!-- 翻牌弹出红包 -->
+		<div class="hidden">
+			<div class="hb">
+				<p>翻到一瓶</p>
+				<h3></h3>
+			</div>
+			<div id="click_btn">点击领取</div>
+		</div>
+		<div id="description">
+			<p>游戏规则 :</p>
+			<p>1、通过扫一扫，一个用户（同一手机、设备号视为同一用户）每天可获得1次免费翻牌机会，免费翻牌机会当天有效；</p>
+			<p>2、首次分享活动页面到朋友圈可获得一号集市线上商城5元无门槛现金红包；</p>
+			<p>3、特别说明：部分翻牌抽中的奖品带有一定的领取条件；</p>
+			<p>4、活动时间180天；</p>
+			<p>5、在法律允许范围内，一号集市拥有活动的最终解释权。</p>
+		</div>	
+		
+	</div>
+</body>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/rem.js"></script>
+<script src="js/game.js"></script>
+<script src="js/md5.js"></script>
+</html>

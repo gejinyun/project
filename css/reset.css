@@ -1,0 +1,35 @@
+﻿ul, ol { 
+	list-style:none;
+} 
+a { 
+	text-decoration:none; 
+} 
+img { 
+	border:none; 
+} 
+input,button{
+	outline: medium;
+}
+::-webkit-input-placeholder {
+  color: #b1b1b1;
+}
+:-moz-placeholder {/* Firefox 18- */
+  color: #b1b1b1;
+}
+::-moz-placeholder{/* Firefox 19+ */
+ color: #b1b1b1;
+}
+:-ms-input-placeholder {
+  color: #b1b1b1;
+}
+.clearfix:after{
+	content: ".";
+	clear: both;
+	display: block;
+	height: 0;
+	visibility:hidden;
+
+}
+.clearfix{
+	zoom: 1;
+}

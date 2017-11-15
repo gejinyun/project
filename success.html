@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,user-scalable=no" />
+	<title>奖品页</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/success.css">
+</head>
+<body>	
+	<div id="content">
+		<!-- 内容页面 -->
+		<div class='bgm'>
+			<img class="img_1qcg" src="images/lqcg.png" alt="">
+			<img class="cloudl" src="images/yunz3.png" alt="">
+			<img class="cloudr" src="images/yuny3.png" alt="">
+			<img id="guangm" class="img_gm" src="images/gm.png" alt="">
+			<img id="caid" class="img_cd" src="images/caid.png" alt="">
+		</div>
+		<div class="con" id="con">
+			<p id="word"></p>
+		</div>
+		<button class="btn">下载一号集市APP即可享受打折特惠</button>
+		<div id="description">
+			<p>游戏规则 :</p>
+			<p>1、通过扫一扫，一个用户（同一手机、设备号视为同一用户）每天可获得1次免费翻牌机会，免费翻牌机会当天有效；</p>
+			<p>2、首次分享活动页面到朋友圈可获得一号集市线上商城5元无门槛现金红包；</p>
+			<p>3、特别说明：部分翻牌抽中的奖品带有一定的领取条件；</p>
+			<p>4、活动时间180天；</p>
+			<p>5、在法律允许范围内，一号集市拥有活动的最终解释权。</p>
+		</div>	
+		<!-- 红包页面 -->
+		<div id="img_bg">
+			<div id="img_hb">
+				<span id="open"></span>
+				<!-- 关闭按钮 -->
+				<img class="close" src="images/gb.png" alt="">
+			</div>
+			<div id="img_hbdk">
+				<div id="use_btn"><span>立即使用红包</span><span></span></div>
+				<!-- 关闭按钮 -->
+				<img class="close" src="images/gb.png" alt="">
+			</div>
+			
+		</div>
+		<!-- 分享页面 -->
+		<div id="share">
+			<img class="img1" src="images/jit.png" alt="">
+			<img class="img2" src="images/yxk.png" alt="">
+			<div class="share_award"></div>
+		</div>
+	</div>
+</body>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/rem.js"></script>
+<script src="js/success.js"></script>
+<script>
+	setTimeout(function(){
+		$('#guangm').removeClass('img_gm');
+		$('#caid').removeClass('img_cd');  
+		$('#guangm').addClass('img_gm1'); 
+		$('#caid').addClass('img_cd1'); 
+	},5000)
+</script>
+</html>
