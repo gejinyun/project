@@ -115,7 +115,7 @@
 			}, 1000)
 		}
 	})
-	// 一键清除
+	// 一键清除手机号
 	clear.addEventListener("touchstart",function(){
 		tel.value = '';
 		this.style.display = 'none';
